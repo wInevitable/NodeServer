@@ -2,9 +2,10 @@
     "name": "chatapp",
     "description": "my chat app",
     "version": "0.0.1",
-    "private": true,
+    "main": "server",
     "dependencies": {
       "socket.io": "~0.9.6",
-      "mime": "~1.2.7"
+      "mime": "~1.2.7",
+      "lodash": "~1.3.1"
     }
 }

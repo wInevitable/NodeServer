@@ -1,0 +1,21 @@
+<head>
+  <script src="public/javascripts/jquery.js"></script>
+  <script src="public/javascripts/jquery.serializejson.min.js"></script>
+  
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="public/javascripts/chat.js"></script>
+  <script src="public/javascripts/chat_ui.js"></script>
+</head>
+
+<body>
+  <h1>Chill Chat App</h1>
+
+  <div id="messages">  
+  </div>
+
+  <form id="submit-form">
+    <input type="text" name="message[text]" placeholder="write chat here">
+  
+    <input type="submit">
+  </form>
+</body>
